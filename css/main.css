@@ -1,0 +1,133 @@
+/*
+Marlon Torres
+    B1 Assignment: Usability Testing & Landing Page
+    Filename: main.css
+    April 3, 2014
+*/
+
+
+header, section, footer, aside, nav, article, figure, figcaption {
+    display: block;}
+
+
+body {
+    width: 90%;
+    background: linear-gradient(to bottom, #066dab 10%,#066dab 10%,#8abbd7 54%,#8abbd7 54%,#c5deea 100%,#c5deea 100%); /* W3C */
+    padding: 20px;
+    margin: 0 auto; /* Centers my page */
+}
+
+/* box style for container, margins centered my page.*/
+
+#container{
+    background-color: #fff;
+    max-width: 960px;
+    min-width: 75%;
+    margin: 1% auto 1% auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    box-shadow: 4px 4px 15px #003471;
+}
+
+figure {
+    display: block;
+    text-align: center;
+    margin: 15px 0 20px 0;
+    float: right;
+    width: 32%;
+}
+
+figure img{
+    width: 100%;
+}
+
+figcaption {
+    color:#464646;
+    font:12px Arial, sans-serif;
+    padding: 5px;
+}
+
+img {
+    border: 1px solid #000;
+    box-shadow: 2px 2px 4px #888888;
+    margin-top: 40px;
+}
+
+
+h1 {
+    color: #000;
+    font: normal normal 24px Arial, Verdana, sans-serif;
+    margin-top: 0;
+    padding-top: 10px;
+    text-align: left;
+
+}
+
+h2 {
+    color: #000;
+    font: normal normal 18px Arial, Verdana, sans-serif;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: left;
+}
+
+h2#ut {
+    margin-top: 250px;
+}
+
+p {
+    font: normal normal normal 14px/1.5em Arial, Verdana, sans-serif;
+    float: left;
+    width: 65%;
+    margin: 10px 5px 10px 0;
+}
+/* ----------- table ------------ */
+
+table {
+    font: normal normal normal 12px/1.5em Arial, Verdana, sans-serif;
+    width: 80%;
+    border: 1px solid #333333;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #333333;
+}
+
+th {
+    text-transform: uppercase;
+    font-size: 100%;
+    border: 1px solid #333333;
+    text-align: center;
+}
+
+tr#maintr {
+    font: normal normal normal 14px/1.5em Arial, Verdana, sans-serif;
+    color: #fff;
+    background: #f26522;
+}
+
+tr.even {
+    background-color: #ccc;
+}
+
+td:hover {
+    background-color: #f09468;
+}
+
+footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font:10px Arial, sans-serif;
+}
+
+
+
+
+
